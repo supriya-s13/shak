@@ -1,0 +1,46 @@
+2023-11-14 05:00:22,987 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:00:31,269 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:06:26,058 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:06:34,100 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:08:43,229 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:08:47,796 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:15:15,666 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:15:19,941 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:27:18,306 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:27:22,180 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:30:26,215 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:30:52,856 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:42:53,950 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:43:02,387 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:45:12,046 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:45:19,620 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:48:45,734 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:48:58,676 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:50:59,475 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:51:06,371 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:52:12,111 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:52:15,268 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:52:47,673 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-14 05:52:49,890 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
+2023-11-14 05:53:28,002 [main] ERROR s231047002.javaTestClass - Connection unsuccessful
+com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'SUPRIYA'. ClientConnectionId:fb575d3c-d4ed-4873-86d6-6ac30b9290b2
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:259) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:304) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:137) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:42) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:6612) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:5154) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$300(SQLServerConnection.java:94) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:5087) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7675) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4137) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:3583) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3172) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3014) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1836) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1246) ~[mssql-jdbc-12.4.2.jre8.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:681) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:229) ~[java.sql:?]
+	at s231047002.javaTestClass.main(javaTestClass.java:34) [bin/:?]
+2023-11-20 05:20:29,002 [main] INFO  s231047002.javaTestClass - Connection successful!
+2023-11-20 05:20:34,131 [main] INFO  s231047002.javaTestClass - Data inserted into the database!
